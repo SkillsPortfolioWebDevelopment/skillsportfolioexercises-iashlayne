@@ -1,0 +1,33 @@
+/* we created a background image*/
+/* we positioned in center and in cover size*/
+/* P.S: I created the background image*/
+body{ 
+    background-image:url(space.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* .containerVid if the style container of the video*/
+/* P.S: I created the background image*/
+.containerVid {
+    margin-top: 5.5rem;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    background-image: url("svenposter.JPEG");
+    border: 4px solid whitesmoke;
+    background-position: center;
+    background-size: cover;
+}
+/* .videobox is the style of the video:  width, margin and height*/
+.videobox {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 300px;
+}
+
