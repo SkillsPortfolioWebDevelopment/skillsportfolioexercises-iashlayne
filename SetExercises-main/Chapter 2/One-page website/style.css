@@ -1,0 +1,112 @@
+/*
+h1{
+    text-align: center;
+}
+*/
+body{
+    margin: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #1C3F6E;
+
+}
+/* style link  for the avatar official website */
+a:link {
+    text-decoration: none;
+    color: red;
+  }
+/* style link when it is visited */
+  a:visited {
+    text-decoration: none;
+    color:lightseagreen;
+  }
+/* style link when it is in hover */
+  a:hover {
+    text-decoration: underline;
+    color: gold;
+  }
+/* link for the avatar official website is active*/
+  a:active {
+    text-decoration: underline;
+    color: greenyellow;
+  }
+/* style button for the back to top  */
+.linkbutton {
+  background-color: #56831d;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  margin: 5px 3px;
+  cursor: hand;
+  text-decoration: none;
+}
+
+.orangetxt {
+    color: #af5f5f;
+}
+/* text syle for the name of director and writer */
+.bluetxt {
+    color: #3030db;
+}      
+
+.lightbluetxt {
+    color: #5eebdf
+}
+
+.greentxt{
+    font-family: "Papyrus", fantasy;
+    color: #EFFC93
+    
+}
+
+.yellowtxt{
+    color: #80C271;
+    line-height: 1.9;
+}
+/* text style for the short description of the movie */
+.whitetxt{
+    font-family:"Papyrus", fantasy;
+    color: lightslategray;
+    text-align: center;
+    font-size: medium;
+    line-height: 2.0;
+
+}
+
+/* text style for the  of the movie cast, storyline, summary, synopsis, reviews (content) */
+.whitetxt2{
+    color: lightslategray;
+    line-height: 1.9;
+}
+/* text style for the title of the movie */
+.yellow2txt{
+    font-family: "Papyrus", fantasy;
+    color: #EDCC2D;
+}
+
+.centertxt{
+    text-align: center;
+}
+
+.navbar a{
+    background-color: #a8e5e7;
+    border: 2px;
+    border-color: black;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    color: #3030db;
+    border-radius: 10px;
+    border-width: 150px;
+}
+
+.navbar a:hover{
+   background-color: #08458a; 
+   color: cornsilk;
+}
+
+h1 {
+    font-size: 3.0em;
+  }
+  

@@ -1,0 +1,43 @@
+/*
+h1{
+    text-align: center;
+}
+*/
+body{
+    margin: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+.linkbutton {
+  background-color: #56831d;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  margin: 5px 3px;
+  cursor: hand;
+  text-decoration: none;
+}
+
+.orangetxt {
+    color: #af5f5f;
+}
+
+.bluetxt {
+    color: #3030db;
+}      
+
+.lightbluetxt {
+    color: #5eebdf
+}
+
+.greentxt{
+    color: #2fb959
+}
+
+.centertxt{
+    text-align: center;
+}
