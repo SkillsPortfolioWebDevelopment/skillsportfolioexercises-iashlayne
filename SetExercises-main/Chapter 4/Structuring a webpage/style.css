@@ -1,0 +1,92 @@
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+/* styling for the title */
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+
+/* styling for the header where you have the nav links */
+.header { 
+  grid-area: header; 
+  background-color: #17072b; 
+  text-align: center; 
+  color: #FFFFFF; 
+  padding: 15px;
+}
+/* styling for the main content */
+.main { 
+  grid-area: main; 
+  color: #000000;
+  margin-right: 10px;
+  padding-left: 20px;
+}
+/* styling for the right column */
+.aside { 
+  grid-area: aside; 
+  background-color: #172d67; 
+  color: #FFFFFF;
+  margin-left: 10px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+/* styling for the footer */
+.footer { 
+  grid-area: footer; 
+  background-color: #8c15e9; 
+  color: #FFFFFF;
+  text-align: center; 
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* styling for the links */
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
+.nav a{
+  color: white !important;
+  padding: 10px;
+}
+
+/* styling for the grid container */
+.container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main aside aside'
+    'footer footer footer footer footer footer';
+  gap: 10px;
+  padding: 10px;
+}
+
+
+
+/* styling for the images */
+img{
+  max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.sideimage img{
+height: auto;  
+ width: 45%;  
+}
+
+.sideimage #leftimage img{
+  float: left;
+  
+}
+
+.sideimage #righimage{
+  float: right;
+}
