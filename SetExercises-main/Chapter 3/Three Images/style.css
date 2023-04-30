@@ -1,0 +1,40 @@
+/*This is the body for the website, linear gradient*/
+body{margin: 10%;
+  background-image: linear-gradient(#A1C4FD, #C2E9FB);
+}
+/*This is the container that align the content*/
+.container {
+        display: flex;
+        align-items: center;
+}
+/*This is the filter of the image*/
+img{
+  filter:saturate(100%) grayscale(25%);
+}
+/*This is the photograph for the white container of each picture*/
+div.photograph{
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 100px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  font-family:'Papyrus';
+}
+/*This is the "JAPAN" text style*/
+.h1{
+  font-family: 'Papyrus', 'cursive';
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+/*This is the copyright details text style */
+.copyright{
+ color: grey;
+}
+/*This is the text style of the title for each picture contains (Cherry Blossoms, Mount Fuji, Ramen Noodles)*/
+.title{
+  font-size: 20px;
+  font-weight: 900;
+  text-decoration: underline
+}
