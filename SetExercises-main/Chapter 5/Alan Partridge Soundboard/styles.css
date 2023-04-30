@@ -1,0 +1,30 @@
+
+body{ 
+    background-image: url("summer.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Styling for the boxes */
+.box{
+    background-color: white;
+    border: 5px solid black;
+    margin: 1rem;
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+    width: 30%;
+    margin: 20px; 
+    cursor:wait
+
+    
+}
+
+/* move hover color on boxes*/
+.box:hover{
+    background-color: #e81c54;
+}
+
+
+
