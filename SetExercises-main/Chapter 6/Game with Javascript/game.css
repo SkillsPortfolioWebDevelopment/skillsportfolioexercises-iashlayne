@@ -1,0 +1,28 @@
+
+body{
+ background-color: green;
+}
+#game{
+    width: 400px;
+    height:400px;
+    margin: 0 auto;
+
+}
+
+
+h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+#score {
+  font-family: "Poppins";
+  text-align: center;
+  margin-top: 90px;
+  color: white;
+  font-size: 30px;
+
+
+}
