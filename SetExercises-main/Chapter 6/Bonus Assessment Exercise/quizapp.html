@@ -1,0 +1,154 @@
+<!--This exercise we could create any interactive HTML, CSS, and Javascript-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!--we linked the stylesheet "style.css"-->
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+<body>
+<!--we created a class named "topNav" for the top navigation bar-->
+<!--P.S. The top navigation bar is just a design for the header-->
+    <div class="topNav">
+        <a class="active" href="Home">Home</a>
+        <a href="About Us">About Us</a>
+        <a href="Games">Games</a>
+        <a href="Profile">Profile</a>
+    </div>
+<!--we created a class "game" for the container of the quiz -->
+<div class="game">
+        <h1> Guess the Movie </h1>
+<!--we created a class "quiz" for the content of quiz -->
+    <div class="quiz">
+    <br />
+<!--we used img src for the 1st question of guess the movie with the width and height-->
+    <img src ="clueless.jpg" width="50%" height="70%">
+<!--we created an id to style for the question text of the quiz-->
+    <h2 id="question">Q1. Teen Comedy film in the Year 1995</h2><br>
+    <div class="ansButtons">
+     <input type="radio" class="bttn" name="question1" > Beyond Clueless <br>
+     <input type="radio" class="bttn" name="question1" > Mean Girls <br>
+     <input type="radio" class="bttn" name="question1" id="right1" > Clueless <br>
+     <input type="radio" class="bttn" name="question1" > Princess Diaries <br>
+     <br /><br />
+    </div>
+<!--we used img src for the 2nd question of guess the movie with the width and height-->
+    <img src="warmbodies.jpg" width="50%" height="70%">
+<!--we created an id to style for the question text of the quiz-->
+    <h2 id="question">Q2. Paranormal Romantic Comedy Zombie film in the Year 2013</h2><br>
+    <div class="ansButtons">
+     <input type="radio" class="bttn" name="question2"> World War Z <br>
+     <input type="radio" class="bttn" name="question2"> Love Zombies <br>
+     <input type="radio" class="bttn" name="question2"> ZombieLand <br>
+     <input type="radio" class="bttn"name="question2" id="right2"> Warm Bodies <br>
+     <br /><br />
+    </div>
+<!--we used img src for the 3rd question of guess the movie with the width and height-->
+    <img src="bumblebee.jpg" width="50%" height="70%">
+<!--we created an id to style for the question text of the quiz-->
+    <h2 id="question">Q3. Science Fiction Film in year 2018 based on Transformers</h2><br>
+    <div class="ansButtons">
+     <input type="radio" class="bttn" name="question3"> Transformers <br>
+     <input type="radio" class="bttn" name="question3"> Bumblebee 2 <br>
+     <input type="radio" class="bttn" name="question3"> Transformers 2 <br>
+     <input type="radio" class="bttn" name="question3" id="right3"> Bumblebee <br>
+     <br /><br />
+    </div>
+<!--we used img src for the 4th question of guess the movie with the width and height-->
+    <img src ="suicide squad.jpeg" width="50%" height="70%">
+<!--we created an id to style for the question text of the quiz-->
+    <h2 id="question">Q4. Superhero Film in the year 2021 based on DC Comics</h2><br>
+    <div class="ansButtons">
+     <input type="radio" class="bttn" name="question4" id="right4"> The Suicide Squad <br>
+     <input type="radio" class="bttn" name="question4" > Suicide Squad 2 <br>
+     <input type="radio" class="bttn" name="question4" > Suicide Squad <br>
+     <input type="radio" class="bttn" name="question4" > Joker <br>
+     <br /><br />
+    </div>
+<!--we used img src for the 5th question of guess the movie with the width and height-->
+     <img src ="la-land.jpg" width="50%" height="70%">
+     <h2 id="question">Q5. An American Romantic Musical Film in the year 2016</h2><br>
+     <div class="ansButtons">
+<!--we created an id to style for the question text of the quiz-->
+     <input type="radio" class="bttn" name="question5" > Music Love <br>
+     <input type="radio" class="bttn" name="question5" id="right5"> La la Land <br>
+     <input type="radio" class="bttn" name="question5" > The Sound of Music <br>
+     <input type="radio" class="bttn" name="question5" > The Greatest Showman <br>
+     <br /><br />
+     <input type="submit" class="submit" name="submit" value="Submit" onClick="result()">
+
+    </div>
+    </div>
+</div>
+
+<!--this is the footer of the website (Guess Game)-->
+<!--We just make it simple just to show the footer section-->
+<footer>
+<div class="footer">
+
+GuessGame.org © 2023 | Feedback | Privacy Policy
+</div>
+</footer>
+    </body>
+    </html>
+
+<!--I used the previous class quiz code for this activity and added some css-->
+<!--this is the script section in text javascript-->
+<script type="text/javascript">
+// we created function() of the result of score game
+    function result() {
+// we created a variable score = O;
+// in every game it will be back to score 0
+        var score = 0;
+// this is the section to get the right1, right2, right3, right4, right5 checked from the id 
+// in HTML, score ++ to add the score in every right answer
+        if (document.getElementById('right1').checked) {
+            score++;
+        }
+        if (document.getElementById('right2').checked) {
+            score++;
+        }
+        if (document.getElementById('right3').checked) {
+            score++;
+        }
+        if (document.getElementById('right4').checked) {
+            score++;
+        }
+        if (document.getElementById('right5').checked) {
+            score++;
+        }
+
+// if the score is 5 this will print "Excellent! You're a movie master!  5/5"
+        if (score == 5){
+            document.write("Your score is: " + score + " Excellent! You're a movie master!  5/5");
+        }
+// if the score is 4 this will print "Great! You're a movie fan!  4/5"
+        if (score == 4){
+            document.write("Your score is: " + score + " Great! You're a movie fan!  4/5");
+        }
+// if the score is 3 this will print "Your a good movie watcher! 3/5""
+        if (score == 3){
+            document.write("Your score is: " + score + " Your a good movie watcher! 3/5");
+        }
+// if the score is 2 this will print "Watch more to reach there 2/5"
+        if (score == 2){
+            document.write("Your score is: " + score + " Watch more to reach there 2/5");
+        }
+// if the score is 1 this will print "Try better movie answer next time!"
+        if (score == 1){
+            document.write("Your score is: " + score + " Try better movie answer next time! 1/5");
+        }
+// if the score is 1 this will print " Needs more watching of movies  0/5"
+        if (score == 0){
+            document.write("Your score is: " + score + " Needs more watching of movies  0/5");
+        }
+    }
+
+</script>
+
+
+     
+

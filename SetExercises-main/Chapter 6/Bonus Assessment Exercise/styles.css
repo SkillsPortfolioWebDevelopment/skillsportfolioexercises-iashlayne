@@ -1,0 +1,115 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+/*This is body seection of the game css*/
+
+body{
+    background-color:black;
+    position: relative;
+    
+} 
+/*This is the img section which creates the border lining*/
+img{
+    border: 1.5px solid grey;
+    border-radius: 5px;
+    padding: 7px;
+    width: 100%;
+}
+/*This is css style for the top navigation bar */
+.topNav{
+     overflow: hidden;
+     background-color: white;
+     width: 25%;
+     margin-left: 75%;
+     color: black;
+     
+     
+}
+/*This is css style for the top navigation bar */
+.topNav a{
+    float: right;
+    text-align: center;
+    padding: 15px 17px;
+    font-size: 16.5px;
+}
+
+/*This is css style for the top navigation bar when it is in hover */
+
+.topNav a:hover{
+    background-color:#00D9D9;
+    color: black;
+}
+/*This is css style for the top navigation bar when it is on active*/
+.topNav a.active{
+    background-color: darkcyan;
+    color: white;
+}
+
+/*This is css style for the game container of the quiz */
+.game{
+    background-color: white;
+    width: 60%;
+    max-width: 550px;
+    margin: 50px auto 0;
+    border-radius: 15px;
+    padding: 70px;
+    padding-bottom: 12px;
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+.quiz{
+    padding: 20px 0;
+}
+/*This is for the Guess the Movie title inside the container */
+.game h1{
+    font-weight: 35px;
+    color: darkslategray;
+    font-weight: 800;
+    padding-bottom: 50px;
+    border-bottom: 1.5px double gray;
+
+}
+
+.ansButtons{
+    text-align: center;
+}
+
+
+#question{
+    color: gray;
+    margin: 10px;
+    font-size: 15px;
+}
+/*This is the css of the footer section */
+footer{
+    margin-top: auto;
+}
+.footer{
+    height: 18px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    background-color: white;
+    padding: 15px;
+    
+}
+/*This is the style for the submit buttion */
+.submit{
+    margin-top: 50px;
+    padding: 10px;
+    background-color: darkcyan;
+    color: white;
+
+}
+
+
+
+
+
