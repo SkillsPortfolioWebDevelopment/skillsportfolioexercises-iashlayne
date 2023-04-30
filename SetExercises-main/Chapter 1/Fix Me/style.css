@@ -1,0 +1,54 @@
+/* this is a comment for css */
+
+
+
+/*
+The default H1 heading is 2rem, changed below to 3rem
+H1 was not closed with curl brackets
+*/
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+/*
+there was a whitespace between "1." and "25"
+there were some missing semi colons
+*/
+h2{
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+/*
+h3 is added and made it center
+*/
+h3{
+    text-align: center;
+}
+
+/*
+there were some missing semi colons
+*/
+#author{
+    font-size: 1.1rem;
+    text-align: center;
+    font-style: italic;
+}
+
+/*
+added text-align: justify to make it look more like the result sample image */
+p{ 
+    text-align: justify;
+    line-height: 1.3
+}
+
+/*
+corrected the body element */
+body{
+    background-color: aliceblue;
+    font-family: Georgia, serif;
+    padding: 100px;
+}
+

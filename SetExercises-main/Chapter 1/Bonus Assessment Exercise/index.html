@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<!-- This is a quick reference guide for Intro to HTML -->
+
+<head>
+    <title>Quick Reference Guide</title>
+    <link rel="stylesheet" href="quickguide.css">
+    <style type="text/css">
+    </style>
+</head>
+
+<body>
+    <h1>This is a quick reference guide for Intro to HTML</h1>
+
+    <h2>Use of Headings or h tags</h2>
+    <p>
+        We use heading tags to arrange the structure of the web page.
+        Common mistake is when you use h tags just to make text bigger and bold. There are 6 Headings, h1 being the most
+        important and h6 being the least important
+    </p>
+
+    <h2>Adding comments on HTML</h2>
+    <p>
+        To add comments in HTML we use the below:
+    </p>
+    <pre>
+        <span class="greentxt">/*</span> 
+            YOUR CSS comment here
+        <span class="greentxt">*/</span>
+    </pre>
+
+    <h2>Adding comments on CSS</h2>
+    <p>
+        To add comments in CSS we use the below:
+    </p>
+    <pre>
+        <span class="greentxt">&lt;!--</span> 
+            YOUR HTML comment here
+        <span class="greentxt">--&gt;</span>
+    </pre>
+
+    <h2>Applying CSS; inline or linked css file</h2>
+
+    <p>
+        You can have an inline styling which looks like below:
+    </p>
+
+    <!-- 
+        used pre tag to show sample codes
+        replaced angle brackets "<" ">" with "&lt;" and "&gt;" respectively
+        used span for inline styling along with class to change the color of specific text/words via css
+    -->
+
+    <pre>
+        &lt;<span class="bluetxt">p</span> <span class="lightbluetxt">style</span><span class="orangetxt">="font-size: 18px; color: #111111; font-family: Georgia, 'Times New Roman', Times, serif"</span>&gt;
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+        in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+        qui officia deserunt mollit
+        anim id est laborum.
+        &lt;/<span class="bluetxt">p</span>&gt;
+    </pre>
+
+    <p>
+        but it is recommended and easier to have a separate styling sheet linked to the html page from the head tag like
+        the below:
+    </p>
+    <pre>
+        &lt;<span class="bluetxt">link</span> <span class="lightbluetxt">rel</span><span class="orangetxt">="stylesheet"</span> <span class="lightbluettxt">href</span><span class="orangetxt">="quickguide.css"</span>&gt;
+    </pre>
+
+    <p>
+        another way is to add the stylings inside the head tag using style tag like below:
+    </p>
+    <pre>
+        &lt;<span class="bluetxt">head</span>&gt;
+            &lt;<span class="bluetxt">style</span> <span class="lightbluetxt">type</span><span class="orangetxt">="text/css"</span>&gt;
+                YOUR CSS HERE
+            &lt;/<span class="bluetxt">style</span>&gt;
+        &lt;/<span class="bluetxt">head</span>&gt;
+    </pre>
+
+
+</body>
